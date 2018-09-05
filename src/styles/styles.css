@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.comparison__image__container {
+    position: relative;
+    height: 200px;
+}
+
+.comparison__image__img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.comparison__image__img img {
+    display: block;
+    vertical-align: middle;
+}
+
+.comparison__image__slider {
+    position: absolute;
+    z-index: 9;
+    cursor: ew-resize;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(41, 124, 192, 0.616);
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
